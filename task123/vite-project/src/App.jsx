@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Greeting from './Greeting/Greeting.jsx';
-import TodoItem from './TodoItem/TodoItem.jsx';
+import TodoItem from './TodoItems/TodoItem.jsx';
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     'Посадить дерево',
     'Построить дом',
     'Вырастить сына',
-  ]);
+ ]);
 
   return (
     <>
@@ -20,11 +20,11 @@ function App() {
       Count is {count}
     </button>
     <div>
-        {tasks.map((task, index) => (
-          <TodoItem key={index} task={task} />
-        ))}
-      </div>
-      <TodoItem task="что-то" />
+      <h2>Список задач:</h2>
+      {tasks.map((task, index) => (
+        <TodoItem key={index} task={task} />
+      ))}
+    </div>
     </>
   )
 }
