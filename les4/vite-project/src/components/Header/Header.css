@@ -1,0 +1,33 @@
+.header_container{
+    position: absolute;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 40px
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+}
+
+.menupoint{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo{
+    width: 130px;
+    height: 22px;
+}

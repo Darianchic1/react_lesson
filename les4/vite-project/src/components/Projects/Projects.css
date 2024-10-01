@@ -1,0 +1,29 @@
+.projects_container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.h_projects{
+    font-size: 46px;
+    font-weight: bold;
+    width: 70%;
+    line-height: 1.3;
+}
+
+.button_project{
+    display: flex;
+    flex-direction: row;
+}
+
+.project_top{
+    display: flex;
+    flex-direction: row;
+    align-items:last baseline;
+    justify-content: space-between;
+}
+
+.projects_card{
+    display: flex;
+    flex-direction: row;
+    gap: 5%
+}
